@@ -1,5 +1,7 @@
 <?php
 include("includes/conexion.php");
+include("includes/producto.class.php");
+
 if(isset($_GET["pagina"])){
 	$pagina=$_GET["pagina"];
 }else{
@@ -24,3 +26,6 @@ if(isset($_GET["pagina"])){
 
 </body>
 </html>
+<?php
+$conexion->close();
+?>
