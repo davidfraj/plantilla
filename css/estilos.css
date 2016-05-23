@@ -1,0 +1,15 @@
+body{
+	text-align: center;
+}
+
+section#contenedor{
+	min-height: 500px;
+	text-align: left;
+	margin: 5px auto;
+	width: 100%;
+	max-width: 800px;
+	background-color: #92FAC0;
+	box-sizing: content-box; /* Para que el width sea real*/
+	border: 10px solid black;
+	padding: 10px;
+}
